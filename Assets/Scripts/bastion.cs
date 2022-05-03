@@ -5,7 +5,7 @@ using UnityEngine;
 public class bastion : Card
 {
     void Start() {
-        cardName = "정점의 천 바스티온";
+        cardName = "정점의 천제 바스티온";
 
         power = 13000;
         guard = 0;
