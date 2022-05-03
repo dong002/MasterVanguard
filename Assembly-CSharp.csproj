@@ -58,8 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/SO/itemSO.cs" />
     <Compile Include="Assets/Scripts/Card.cs" />
-    <Compile Include="Assets/Scripts/testCard.cs" />
+    <Compile Include="Assets/Scripts/bastion.cs" />
     <Compile Include="Assets/Scripts/CardManager.cs" />
+    <Compile Include="Assets/Scripts/Singlton.cs" />
+    <Compile Include="Assets/Scripts/pot.cs" />
+    <Compile Include="Assets/Scripts/rukeuseu.cs" />
+    <Compile Include="Assets/Scripts/K_order.cs" />
+    <Compile Include="Assets/Scripts/bass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
