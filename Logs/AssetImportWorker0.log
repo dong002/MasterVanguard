@@ -22,56 +22,56 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52220
+52582
 Successfully changed project path to: /Users/yohan/MasterVangurd
 /Users/yohan/MasterVangurd
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/yohan/MasterVangurd/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-28 22:37:09.368 Unity[24627:5561621] (null) preferred device: Apple M1 Pro (high power)
-2022-04-28 22:37:09.368 Unity[24627:5561621] Metal devices available: 1
-2022-04-28 22:37:09.368 Unity[24627:5561621] 0: Apple M1 Pro (high power)
-2022-04-28 22:37:09.369 Unity[24627:5561621] Using device Apple M1 Pro (high power)
+2022-05-03 13:40:09.492 Unity[9257:458827] (null) preferred device: Apple M1 Pro (high power)
+2022-05-03 13:40:09.492 Unity[9257:458827] Metal devices available: 1
+2022-05-03 13:40:09.492 Unity[9257:458827] 0: Apple M1 Pro (high power)
+2022-05-03 13:40:09.493 Unity[9257:458827] Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56627
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56257
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001893 seconds.
+Registered in 0.000374 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 49.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
+- Completed reload, in  1.215 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1216ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (999ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (507ms)
+			SetupLoadedEditorAssemblies (497ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (311ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (308ms)
 				ProcessInitializeOnLoadMethodAttributes (107ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
@@ -79,43 +79,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003783 seconds.
+Registered in 0.000833 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 44.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.181 seconds
+- Completed reload, in  2.118 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2183ms)
-		BeginReloadAssembly (251ms)
+	ReloadAssembly (2120ms)
+		BeginReloadAssembly (245ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1843ms)
-			LoadAssemblies (194ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1789ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (952ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (924ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (727ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000330 seconds.
+Validating Project structure ... 0.000535 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000559 seconds.
+Upgrading shader files ...0.000522 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,36 +125,36 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
 [C# Project] Writing /Users/yohan/MasterVangurd/MasterVangurd.sln because it has changed
-[C# Project] First difference on line 2
+[C# Project] First difference on line 4
 
 [C# Project] Current /Users/yohan/MasterVangurd/MasterVangurd.sln:
-[C# Project]   002: Microsoft Visual Studio Solution File, Format Version 12.00
-[C# Project]   003: # Visual Studio 15
 [C# Project]   004: 
 [C# Project]   005: Global
 [C# Project]   006: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+[C# Project]   007: 		Debug|Any CPU = Debug|Any CPU
+[C# Project]   008: 		Release|Any CPU = Release|Any CPU
 
 [C# Project] New /Users/yohan/MasterVangurd/MasterVangurd.sln:
-[C# Project]   002: Microsoft Visual Studio Solution File, Format Version 11.00
-[C# Project]   003: # Visual Studio 2010
 [C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Tests", "Unity.2D.PixelPerfect.Tests.csproj", "{EE61CB98-9AB2-9AC1-67C6-9AD53276C3C1}"
 [C# Project]   005: EndProject
 [C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{FA80D8DF-E432-D8D0-2925-F801833F5162}"
-2022-04-28 22:37:14.333 Unity[24627:5561621] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001f03f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-28 22:37:14.336 Unity[24627:5561621] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001820d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{1661E617-0BE0-0DD7-EBDB-3BE8022C9DB8}"
+2022-05-03 13:40:14.302 Unity[9257:458827] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000002eaa70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-05-03 13:40:14.305 Unity[9257:458827] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000299420 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 212.6 MB.
 System memory in use after: 211.7 MB.
 
 Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2666.
-Total: 2.742291 ms (FindLiveObjects: 0.094750 ms CreateObjectMapping: 0.043667 ms MarkObjects: 2.176750 ms  DeleteObjects: 0.426584 ms)
+Total: 2.700042 ms (FindLiveObjects: 0.101042 ms CreateObjectMapping: 0.042417 ms MarkObjects: 2.095042 ms  DeleteObjects: 0.460542 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,126 +168,144 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: 
-  artifactKey: Guid(11070389314e741c386d64354b808a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(11070389314e741c386d64354b808a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000029 seconds  code(3) message(Unknown asset with GUID '11070389314e741c386d64354b808a1e')
-  ERROR: Unknown asset with GUID '11070389314e741c386d64354b808a1e'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: 
-  artifactKey: Guid(7e6dfaa782f3d41c8afcd6054cfcc612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(7e6dfaa782f3d41c8afcd6054cfcc612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '7e6dfaa782f3d41c8afcd6054cfcc612')
-  ERROR: Unknown asset with GUID '7e6dfaa782f3d41c8afcd6054cfcc612'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: 
-  artifactKey: Guid(08cf2992343e94e089665b253499e59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(08cf2992343e94e089665b253499e59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID '08cf2992343e94e089665b253499e59d')
-  ERROR: Unknown asset with GUID '08cf2992343e94e089665b253499e59d'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: 
-  artifactKey: Guid(a8046ae5cce064bfbb990874ee32de0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(a8046ae5cce064bfbb990874ee32de0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000030 seconds  code(3) message(Unknown asset with GUID 'a8046ae5cce064bfbb990874ee32de0e')
-  ERROR: Unknown asset with GUID 'a8046ae5cce064bfbb990874ee32de0e'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: 
-  artifactKey: Guid(c83db16565a5a4ec2a33b7354771e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(c83db16565a5a4ec2a33b7354771e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID 'c83db16565a5a4ec2a33b7354771e47f')
-  ERROR: Unknown asset with GUID 'c83db16565a5a4ec2a33b7354771e47f'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: 
-  artifactKey: Guid(f4259e65bc2fe458b8f2a0e1489f60bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(f4259e65bc2fe458b8f2a0e1489f60bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000029 seconds  code(3) message(Unknown asset with GUID 'f4259e65bc2fe458b8f2a0e1489f60bb')
-  ERROR: Unknown asset with GUID 'f4259e65bc2fe458b8f2a0e1489f60bb'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: 
-  artifactKey: Guid(6a111623ad79e4b16a509def84feb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(6a111623ad79e4b16a509def84feb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID '6a111623ad79e4b16a509def84feb92d')
-  ERROR: Unknown asset with GUID '6a111623ad79e4b16a509def84feb92d'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: 
-  artifactKey: Guid(781abe9548c8b419e87fc56a787a8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(781abe9548c8b419e87fc56a787a8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID '781abe9548c8b419e87fc56a787a8c88')
-  ERROR: Unknown asset with GUID '781abe9548c8b419e87fc56a787a8c88'
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: 
-  artifactKey: Guid(076eb9f12d5404c6db92fa73c4b62e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(076eb9f12d5404c6db92fa73c4b62e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '076eb9f12d5404c6db92fa73c4b62e97')
-  ERROR: Unknown asset with GUID '076eb9f12d5404c6db92fa73c4b62e97'
-========================================================================
-Received Import Request.
-  Time since last request: 2.887464 seconds.
-  path: 
+  path: Assets/fonts/SUIT-Bold.ttf
   artifactKey: Guid(6612a99a970864d3d92533b183734ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(6612a99a970864d3d92533b183734ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID '6612a99a970864d3d92533b183734ba9')
-  ERROR: Unknown asset with GUID '6612a99a970864d3d92533b183734ba9'
+Start importing Assets/fonts/SUIT-Bold.ttf using Guid(6612a99a970864d3d92533b183734ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31493e7db91af75df9f70d81d37a9d1c') in 1.116510 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: 
+  Time since last request: 0.000455 seconds.
+  path: Assets/fonts/SUIT-Thin.ttf
   artifactKey: Guid(5d6d8fe1a1586466d98cc99f7d33139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(5d6d8fe1a1586466d98cc99f7d33139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID '5d6d8fe1a1586466d98cc99f7d33139f')
-  ERROR: Unknown asset with GUID '5d6d8fe1a1586466d98cc99f7d33139f'
+Start importing Assets/fonts/SUIT-Thin.ttf using Guid(5d6d8fe1a1586466d98cc99f7d33139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc5d5ee8f386e1789e3451fdbb9c22b') in 0.014138 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: 
+  Time since last request: 0.000203 seconds.
+  path: Assets/fonts/SUIT-Regular.ttf
   artifactKey: Guid(b832bf4a618d847ae87431e9c76a6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(b832bf4a618d847ae87431e9c76a6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000027 seconds  code(3) message(Unknown asset with GUID 'b832bf4a618d847ae87431e9c76a6ae9')
-  ERROR: Unknown asset with GUID 'b832bf4a618d847ae87431e9c76a6ae9'
+Start importing Assets/fonts/SUIT-Regular.ttf using Guid(b832bf4a618d847ae87431e9c76a6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c94a72e8d89de48a58d1be989308200') in 0.008611 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: 
+  Time since last request: 0.000222 seconds.
+  path: Assets/fonts/SUIT-ExtraBold.ttf
   artifactKey: Guid(731a13916462b40d1a4f681ce80ec4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(731a13916462b40d1a4f681ce80ec4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '731a13916462b40d1a4f681ce80ec4ef')
-  ERROR: Unknown asset with GUID '731a13916462b40d1a4f681ce80ec4ef'
+Start importing Assets/fonts/SUIT-ExtraBold.ttf using Guid(731a13916462b40d1a4f681ce80ec4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebcaaac01bfc4b3ae45c1030145cea6') in 0.008482 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: 
+  Time since last request: 0.000173 seconds.
+  path: Assets/fonts/SUIT-Medium.ttf
   artifactKey: Guid(381ecd1d6dfa148d1a7a2d205736f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(381ecd1d6dfa148d1a7a2d205736f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '381ecd1d6dfa148d1a7a2d205736f6c7')
-  ERROR: Unknown asset with GUID '381ecd1d6dfa148d1a7a2d205736f6c7'
+Start importing Assets/fonts/SUIT-Medium.ttf using Guid(381ecd1d6dfa148d1a7a2d205736f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b714713717f203513bc4c00c2a0e9dcb') in 0.008323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: 
+  Time since last request: 0.000237 seconds.
+  path: Assets/fonts/SUIT-Heavy.ttf
   artifactKey: Guid(cf62284f80aa04a1d85b853974207c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(cf62284f80aa04a1d85b853974207c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID 'cf62284f80aa04a1d85b853974207c14')
-  ERROR: Unknown asset with GUID 'cf62284f80aa04a1d85b853974207c14'
+Start importing Assets/fonts/SUIT-Heavy.ttf using Guid(cf62284f80aa04a1d85b853974207c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6cc36d2bc5c10654d60c28c0feb99') in 0.008420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: 
+  Time since last request: 0.000213 seconds.
+  path: Assets/fonts/SUIT-ExtraLight.ttf
   artifactKey: Guid(5adcf0430a0b54654be1cd806d575d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(5adcf0430a0b54654be1cd806d575d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID '5adcf0430a0b54654be1cd806d575d21')
-  ERROR: Unknown asset with GUID '5adcf0430a0b54654be1cd806d575d21'
+Start importing Assets/fonts/SUIT-ExtraLight.ttf using Guid(5adcf0430a0b54654be1cd806d575d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8525e2dcdcd70ef644a5416d77fda937') in 0.008415 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: 
+  Time since last request: 0.000250 seconds.
+  path: Assets/fonts/SUIT-Light.ttf
   artifactKey: Guid(950a8a5a84bf4486ab0634a365b5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(950a8a5a84bf4486ab0634a365b5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '950a8a5a84bf4486ab0634a365b5ca07')
-  ERROR: Unknown asset with GUID '950a8a5a84bf4486ab0634a365b5ca07'
+Start importing Assets/fonts/SUIT-Light.ttf using Guid(950a8a5a84bf4486ab0634a365b5ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab325221b5e86cc3a009b009d795804') in 0.009877 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: 
+  Time since last request: 0.000203 seconds.
+  path: Assets/fonts/SUIT-SemiBold.ttf
   artifactKey: Guid(969437b90e6a34a54871d729b67aa876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(969437b90e6a34a54871d729b67aa876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID '969437b90e6a34a54871d729b67aa876')
-  ERROR: Unknown asset with GUID '969437b90e6a34a54871d729b67aa876'
+Start importing Assets/fonts/SUIT-SemiBold.ttf using Guid(969437b90e6a34a54871d729b67aa876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17923499dce140be4c92d2e835afd9d0') in 0.009272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 339.699722 seconds.
+  path: Assets/SUIT-Bold.ttf
+  artifactKey: Guid(11070389314e741c386d64354b808a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-Bold.ttf using Guid(11070389314e741c386d64354b808a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf5b317e87bb722f6df45dce4397d3e') in 0.022340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/SUIT-Regular.ttf
+  artifactKey: Guid(7e6dfaa782f3d41c8afcd6054cfcc612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-Regular.ttf using Guid(7e6dfaa782f3d41c8afcd6054cfcc612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad92bd180553ff82bc695887f15445c') in 0.013914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/SUIT-Light.ttf
+  artifactKey: Guid(08cf2992343e94e089665b253499e59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-Light.ttf using Guid(08cf2992343e94e089665b253499e59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0289e9032f622a0a56331b0d33fd806e') in 0.015112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/SUIT-Heavy.ttf
+  artifactKey: Guid(a8046ae5cce064bfbb990874ee32de0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-Heavy.ttf using Guid(a8046ae5cce064bfbb990874ee32de0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2fac5a92bad08c0c9988175073da09') in 0.013337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SUIT-Thin.ttf
+  artifactKey: Guid(c83db16565a5a4ec2a33b7354771e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-Thin.ttf using Guid(c83db16565a5a4ec2a33b7354771e47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e447e0773312887cf2b45ebebc102f41') in 0.011633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SUIT-SemiBold.ttf
+  artifactKey: Guid(f4259e65bc2fe458b8f2a0e1489f60bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-SemiBold.ttf using Guid(f4259e65bc2fe458b8f2a0e1489f60bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaa892212daa692637e601996ecb8ff') in 0.009950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SUIT-ExtraLight.ttf
+  artifactKey: Guid(6a111623ad79e4b16a509def84feb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-ExtraLight.ttf using Guid(6a111623ad79e4b16a509def84feb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc45d6d09ba1a5ddb7d6e37217c2ac76') in 0.009846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SUIT-Medium.ttf
+  artifactKey: Guid(781abe9548c8b419e87fc56a787a8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-Medium.ttf using Guid(781abe9548c8b419e87fc56a787a8c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa90f50b62e9678e96a04f887408fbc9') in 0.009408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SUIT-ExtraBold.ttf
+  artifactKey: Guid(076eb9f12d5404c6db92fa73c4b62e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIT-ExtraBold.ttf using Guid(076eb9f12d5404c6db92fa73c4b62e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573a3c2392dcd5a26345a251985afc17') in 0.009489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.035219 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(725e20e7797e24b5e89cc9391c188fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(725e20e7797e24b5e89cc9391c188fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f57c70ab197704d3a0da7dd7e18d5f') in 0.001458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.786054 seconds.
+  path: Assets/Sprites/Dark/blrodi.png
+  artifactKey: Guid(99ba5ec6c4dc44c31861582b2397f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dark/blrodi.png using Guid(99ba5ec6c4dc44c31861582b2397f15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7731f3ec1af2a35dd6fd51a7520ce04') in 0.495719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.016849 seconds.
+  path: Assets/Material
+  artifactKey: Guid(5c12e88e2704f48b3b1d92df20a5d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(5c12e88e2704f48b3b1d92df20a5d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ef994a5c265f6ada496a4cad1c5e98') in 0.001329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.117616 seconds.
+  path: Assets/Material/New Material.mat
+  artifactKey: Guid(cf61bf3429d6a4fd4b1db6988600cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Material.mat using Guid(cf61bf3429d6a4fd4b1db6988600cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264a8233b1fb062968f966191408019f') in 0.625935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.277690 seconds.
+  path: Assets/Material/TMP.mat
+  artifactKey: Guid(cf61bf3429d6a4fd4b1db6988600cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/TMP.mat using Guid(cf61bf3429d6a4fd4b1db6988600cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6508f924cfb23723f254c93fbef8fb') in 0.012116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.784626 seconds.
+  path: Assets/Material/TMPGeneralMaterial.mat
+  artifactKey: Guid(cf61bf3429d6a4fd4b1db6988600cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/TMPGeneralMaterial.mat using Guid(cf61bf3429d6a4fd4b1db6988600cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1093c17fb3ffc24bdc609ce9a2f354bc') in 0.009770 seconds 
