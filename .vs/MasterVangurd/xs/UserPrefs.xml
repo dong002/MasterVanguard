@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{2E696928-5A5B-FEBF-FB31-71B19ED30CFD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/base.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Card/Card.cs">
     <Files>
-      <File FileName="Assets/Scripts/SO/itemSO.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/Card.cs" Line="17" Column="27" />
-      <File FileName="Assets/Scripts/testCard.cs" Line="32" Column="80" />
-      <File FileName="Assets/Scripts/CardManager.cs" Line="5" Column="50" />
-      <File FileName="Assets/Scripts/pot.cs" Line="2" Column="1" />
-      <File FileName="Assets/Scripts/rukeuseu.cs" Line="36" Column="14" />
-      <File FileName="Assets/Scripts/K_order.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/base.cs" Line="32" Column="1" />
+      <File FileName="Assets/Scripts/User.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/SO/itemSO.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="12" Column="5" />
+      <File FileName="Assets/Scripts/CardManager.cs" Line="25" Column="36" />
+      <File FileName="Assets/Scripts/Card/Card.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/Card/rukeuseu.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,8 +14,10 @@
           <Node name="MasterVangurd" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
+                <Node name="Card" expanded="True">
+                  <Node name="Card.cs" selected="True" />
+                </Node>
                 <Node name="SO" expanded="True" />
-                <Node name="base.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -27,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5442db2e-bca0-4b01-a954-430a7733f2b0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="22f675f3-c028-46a4-8344-6409a1c9da2d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

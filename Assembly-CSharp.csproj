@@ -56,15 +56,17 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/SO/itemSO.cs" />
-    <Compile Include="Assets/Scripts/Card.cs" />
-    <Compile Include="Assets/Scripts/bastion.cs" />
+    <Compile Include="Assets/Scripts/Card/K_order.cs" />
+    <Compile Include="Assets/Scripts/Card/pot.cs" />
+    <Compile Include="Assets/Scripts/Card/Singlton.cs" />
     <Compile Include="Assets/Scripts/CardManager.cs" />
-    <Compile Include="Assets/Scripts/Singlton.cs" />
-    <Compile Include="Assets/Scripts/pot.cs" />
-    <Compile Include="Assets/Scripts/rukeuseu.cs" />
-    <Compile Include="Assets/Scripts/K_order.cs" />
-    <Compile Include="Assets/Scripts/bass.cs" />
+    <Compile Include="Assets/Scripts/Card/Card.cs" />
+    <Compile Include="Assets/Scripts/User.cs" />
+    <Compile Include="Assets/Scripts/SO/itemSO.cs" />
+    <Compile Include="Assets/Scripts/Card/bass.cs" />
+    <Compile Include="Assets/Scripts/Card/rukeuseu.cs" />
+    <Compile Include="Assets/Scripts/Card/bastion.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
