@@ -6,16 +6,22 @@ public class CardManager : Singleton<CardManager>
 {
     public List<GameObject> cards = new List<GameObject>();
 
+    Dictionary<string, Card> deck = new Dictionary<string, Card>();
+
     // Start is called before the first frame update
     void Start()
     {
-        GameObject ca = cards[0];
-        Debug.Log(ca.GetComponent<Card>().cardName);
+      
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void DeckSetting()
+    {
+        deck.Add("뿡냥", new Card());
     }
 }
