@@ -22,6 +22,16 @@ public class CardManager : Singleton<CardManager>
 
     void DeckSetting()
     {
-        deck.Add("뿡냥", new Card());
+        deck.Add("pot", new Card("천검의 기사 포트",8000,5000,1,1,1,false,true,false,false,false,false,true));
+        deck.Add("base", new Card("베이스", 6000, 5000, 1, 1,1, false, true, false, false, false, true, true));
+        deck.Add("asesu", new Card("아세스", 5000, 15000, 0,1,1,false,true,false,false,true,false,true));
+        deck.Add("bastion", new Card("정점의 천재 바스티온", 13000,0,3,2,1,true,false,false,false,false,false,true));
+        deck.Add("galruseu", new Card("갈루스", 5000, 5000, 0, 1, 1, false, true, false, false, true, false, true));
+        deck.Add("rib", new Card("리브", 5000, 15000, 0, 1, 1, false, true, false, false, true, false, true));
+        deck.Add("risana", new Card("리사나", 8000, 5000, 1, 1, 1, false, true, false, false, false, false, true));
+        deck.Add("rokeuseu", new Card("루크스", 10000, 5000, 2, 1, 1, false, false, true, false, false, false, true));
+        deck.Add("wolf", new Card("울프", 8000, 5000, 1, 1, 1, false, true, false, false, false, false, true));
     }
+
+    
 }
