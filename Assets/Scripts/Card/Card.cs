@@ -23,12 +23,13 @@ public class Card : MonoBehaviour
     public virtual void Use() { }
 
 
-    public Card(string _cardname, int _power, int _guard, int _drive, int _critical, bool _persona, bool _boost, bool _intercept, bool _order,
+    public Card(string _cardname, int _power, int _guard,int _grade, int _drive, int _critical, bool _persona, bool _boost, bool _intercept, bool _order,
         bool _trigger, bool _vanguard, bool _stand)
     {
         this.cardName = _cardname;
         this.power = _power;
         this.guard = _guard;
-        this.
+        this.grade = _grade;
+        
     }
 }
