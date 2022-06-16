@@ -1,27 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class rukeuseu : Card
+public class Rukeuseu : Card
 {
-    void Start()
-    {
-        cardName = "천창의 기사 룩스";
 
-        power = 10000;
-        guard = 5000;
-        grade = 2;
-        critical = 1;
-
-        persona = false;
-        intercept = true;
-        boost = false;
-
-        order = false;
-        trigger = false;
-        vanguard = true;
-        drive = 1;
-        stand = true;
-    }
 
     public override void Use()
     {

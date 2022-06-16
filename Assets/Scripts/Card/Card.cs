@@ -30,6 +30,14 @@ public class Card : MonoBehaviour
         this.power = _power;
         this.guard = _guard;
         this.grade = _grade;
-        
+        this.drive = _drive;
+        this.critical = _critical;
+        this.persona = _persona;
+        this.boost = _boost;
+        this.intercept = _intercept;
+        this.order = _order;
+        this.trigger = _trigger;
+        this.vanguard = _vanguard;
+        this.stand = _stand;
     }
 }
